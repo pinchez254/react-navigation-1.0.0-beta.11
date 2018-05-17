@@ -32,7 +32,7 @@ export default class AppTabNavigator extends Component{
 
 const HomeScreenTabNavigator= new TabNavigator ({
     ScreenOne : {
-        screen: ScreenOne,
+        screen: ScreenTwo,
         navigationOptions:{
             tabBarLabel:'Feed',
             tabBarIcon:()=>(
@@ -42,7 +42,7 @@ const HomeScreenTabNavigator= new TabNavigator ({
         
     },
     ScreenTwo : {
-        screen: ScreenTwo,
+        screen: ScreenOne,
         navigationOptions:{
             tabBarLabel:'Feed',
             tabBarIcon:() =>(

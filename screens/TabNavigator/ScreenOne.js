@@ -4,12 +4,13 @@ import {
     Text,
     StyleSheet
     } from "react-native";
+import CardComponent from '../TabNavigator/CardComponent'
 
 class ScreenOne extends Component{
     render(){
         return (
             <View style={styles.container}>
-                <Text>ScreenOne</Text>
+                <CardComponent/>
             </View>
         );
     }
